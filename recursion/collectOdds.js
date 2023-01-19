@@ -8,6 +8,7 @@ function collectOdds(arr) {
     if (helperInput[0] % 2 !== 0) {
       result.push(helperInput[0]);
     }
+    
     helper(helperInput.slice(1));
   }
   helper(arr);
