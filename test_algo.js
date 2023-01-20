@@ -99,3 +99,22 @@ function removeElement(nums, n) {
 
 // console.log(removeElement([1, 2, 4, 5, 4, 6, 4, 7], 4));
 
+function palindromicSubstring(str) {
+  var result = "";
+  var j = 0;
+
+  for (var i = 0; i < str.length; i++) {
+    for (var j = i + 2; j < str.length; j++) {
+      let substr = str.slice(i, j + 1);
+      // if (substr.length < result.length) break;
+      if (isPalindrome(substr) && substr.length > result.length)
+        result = substr;
+    }
+  }
+
+  console.log(result);
+
+  return result !== "" ? result : "none";
+}
+
+palindromicSubstring("helloannasmith");

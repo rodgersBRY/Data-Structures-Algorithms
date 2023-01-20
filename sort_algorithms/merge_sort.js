@@ -23,7 +23,6 @@ function mergeArrays(arr1, arr2) {
     j++;
   }
 
-  console.log(finalArr);
   return finalArr;
 }
 
@@ -35,4 +34,4 @@ function mergeSort(arr) {
   return mergeArrays(left, right);
 }
 
-console.log(mergeSort([10, 24, 76, 73]));
+console.log(mergeSort([10,100,28,48,44,32,78]));
