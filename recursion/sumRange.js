@@ -3,4 +3,4 @@ function sumRange(num) {
   return num + sumRange(num - 1);
 }
 
-console.log(sumRange(4))
+console.log(sumRange(4));

@@ -9,7 +9,7 @@ function bubbleSort(arr) {
       console.log(arr, arr[j], arr[j + 1]);
       if (arr[j] > arr[j + 1]) {
         // SWAP
-        
+
         /* ES2015 swap */
         // [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
 

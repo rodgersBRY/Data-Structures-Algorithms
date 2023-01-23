@@ -17,7 +17,7 @@ function bubbleSort(arr) {
 }
 
 // bubbleSort([11, 10, 12, 13, 15, 256, 67]);
-// O(n^2) 
+// O(n^2)
 function selectionSort(arr) {
   console.log(arr);
 
@@ -48,4 +48,4 @@ function insertionSort(arr) {
   return arr;
 }
 
-insertionSort([1,2,3,4,-1]);
+insertionSort([1, 2, 3, 4, -1]);

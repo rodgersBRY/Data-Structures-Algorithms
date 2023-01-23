@@ -19,7 +19,7 @@ function countUpAndDown(n) {
   }
   console.log("At the top\nGoing down");
   for (let j = n - 1; j >= 0; j--) {
-    console.log(j);  
+    console.log(j);
   }
   console.log("Back down.Bye!");
 }

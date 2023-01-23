@@ -18,7 +18,7 @@ function maxSubArraySum(arr, n) {
   // loop through the integers subtracting the previous first integer and adding the next integer
   for (let i = n; i < arr.length; i++) {
     tempSum = tempSum - arr[i - n] + arr[i];
-    
+
     // if maxSum is less than temp then update max with temp value
     maxSum = maxSum < tempSum ? tempSum : maxSum;
   }

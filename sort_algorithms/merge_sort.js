@@ -2,7 +2,7 @@ function mergeArrays(arr1, arr2) {
   var finalArr = [];
   var i = 0;
   var j = 0;
-  
+
   while (i < arr1.length && j < arr2.length) {
     if (arr1[i] < arr2[j]) {
       finalArr.push(arr1[i]);
@@ -35,4 +35,4 @@ function mergeSort(arr) {
   return mergeArrays(left, right);
 }
 
-console.log(mergeSort([10,100,28,48,44,32,78]));
+console.log(mergeSort([10, 100, 28, 48, 44, 32, 78]));
