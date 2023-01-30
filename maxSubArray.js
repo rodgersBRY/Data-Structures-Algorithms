@@ -6,6 +6,7 @@ function maxSubArraySum(arr, n) {
   // create two variables for sum and temp
   var maxSum = 0;
   var tempSum = 0;
+
   // return null if n is greater than array length
   if (n > arr.length) return null;
 
@@ -13,6 +14,7 @@ function maxSubArraySum(arr, n) {
   for (let i = 0; i < n; i++) {
     maxSum += arr[i];
   }
+  
   tempSum = maxSum;
 
   // loop through the integers subtracting the previous first integer and adding the next integer

@@ -14,6 +14,7 @@ function getLongestPalindromicSubstring(str) {
         start = left;
         maxLength = right - left + 1;
       }
+      
       left--;
       right++;
     }

@@ -1,6 +1,6 @@
 // Stacks
 
-// functions: PushManager, pop, peek, length
+// functions: push, pop, peek, length
 
 // var letters = []; // this is our stack
 

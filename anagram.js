@@ -1,5 +1,5 @@
 /* write a function that takes in 2 strings
-and checks if an string is an anagram
+and checks if a string is an anagram
 word or phrase formed by rearranging the letters of another
 e.g cinema from iceman */
 
